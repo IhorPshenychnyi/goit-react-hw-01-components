@@ -1,0 +1,39 @@
+h2 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.statistics {
+  width: auto;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+
+.statList {
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #cccccc;
+  border-right: 0;
+  width: 50px;
+  height: 50px;
+  background-color: #f5f4fa;
+}
+
+.item:last-child {
+  border-right: 1px solid #cccccc;
+}
+
+.title {
+  margin-bottom: 10px;
+}
